@@ -1,0 +1,52 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * roc-grotesk:
+ *   - http://typekit.com/eulas/00000000000000007735b7d4
+ * roc-grotesk-wide:
+ *   - http://typekit.com/eulas/00000000000000007735b7c2
+ *   - http://typekit.com/eulas/00000000000000007735b7ca
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+/*{"last_published":"2022-06-05 15:21:02 UTC"}*/
+
+@import url("p.css");
+@font-face {
+    font-family: "roc-grotesk";
+    src: url("../l") format("woff2"), url("../d") format("woff"), url("../a_1") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "roc-grotesk-wide";
+    src: url("../l_2") format("woff2"), url("../d_1") format("woff"), url("../a") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "roc-grotesk-wide";
+    src: url("../l_1") format("woff2"), url("../d_2") format("woff"), url("../a_2") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+}
+
+.tk-roc-grotesk {
+    font-family: "roc-grotesk", sans-serif;
+}
+
+.tk-roc-grotesk-wide {
+    font-family: "roc-grotesk-wide", sans-serif;
+}
